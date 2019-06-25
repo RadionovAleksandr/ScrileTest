@@ -29,11 +29,9 @@
     flex-wrap: wrap;
     align-items: center;
     font-size: 13px;
-    /* padding: 0 42px; */
     padding-right: 0px;
     border-radius: 5px;
     margin: 12px 13px;
-    /* margin-left: 19px; */
     background-color: #ffffff;
     border: 1px solid #D5D3D3;
 }
