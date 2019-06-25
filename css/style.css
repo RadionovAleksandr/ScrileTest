@@ -13,6 +13,7 @@
     background-color: #F2F2F2;
     border: 1px solid #4A4949;
     border-radius: 8px;
+    box-shadow: 0 0 7px #4A4949
 }
 
 .block__title {
@@ -24,20 +25,23 @@
 
 .block__target {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     font-size: 13px;
-    padding: 0 42px;
+    /* padding: 0 42px; */
     padding-right: 0px;
     border-radius: 5px;
-    margin: 12px 15px;
+    margin: 12px 13px;
+    /* margin-left: 19px; */
     background-color: #ffffff;
     border: 1px solid #D5D3D3;
 }
 
 .block__target-text {
     font-weight: bold;
-    color: #4A4949;
+    color: rgb(136, 116, 116);
+    margin-left: 10px;
 }
 
 .block__scale {
@@ -60,9 +64,14 @@
     width: 30px;
     margin-left: 85.5%;
     position: absolute;
-    top: 24px;
+    top: 22px;
     font-weight: bold;
     color: #666666;
+}
+
+.block__current-currency {
+    margin-left: 2px;
+    margin-right: -2px;
 }
 
 .block__arrow {
@@ -70,7 +79,7 @@
     height: 7px;
     background-color: #666666;
     position: absolute;
-    top: 14px;
+    top: 12px;
     left: 10px;
     background-image: linear-gradient(130deg, white 35%, transparent 35%), linear-gradient(230deg, white 35%, transparent 35%);
     margin-left: 85.5%;
@@ -95,7 +104,7 @@
 
 .block__control-target-sum {
     margin: 0;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
     font-size: 17px;
     border-top: 1px solid #A49E9F;
 }
@@ -111,13 +120,12 @@
 .block__information {
     display: flex;
     position: relative;
-    /* margin-left: -6px; */
     margin: 10px 0;
 }
 
 .block__information-icon {
     position: absolute;
-    left: -5px;
+    left: 0;
     top: -2px;
     font-family: 'Croissant One', cursive;
     font-size: 16px;
@@ -139,5 +147,5 @@
 }
 
 .block__information-text {
-    margin-left: 17px;
+    margin-left: 23px;
 }
